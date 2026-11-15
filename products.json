@@ -2,10 +2,10 @@
   "products": [
     {
       "id": 1,
-      "name": "Deodorant Rexona",
+      "name": "Deodorant",
       "price": 25000,
       "category": "Kecantikan",
-      "image": "https://images.unsplash.com/photo-1585232004423-244e0e6904e3?w=400",
+      "image": "deodorant.jpg",
       "description": "Deodorant tahan 48 jam, wangi segar sepanjang hari.",
       "stock": 50,
       "sold": 120
@@ -15,7 +15,7 @@
       "name": "Kripik Singkong Pedas",
       "price": 15000,
       "category": "Makanan",
-      "image": "https://images.unsplash.com/photo-1613919113640-569c39f03234?w=400",
+      "image": "kripik-singkong.jpg",
       "description": "Kripik singkong renyah dengan bumbu pedas khas.",
       "stock": 100,
       "sold": 340
@@ -25,7 +25,7 @@
       "name": "Slondok Gurih",
       "price": 10000,
       "category": "Makanan",
-      "image": "https://images.unsplash.com/photo-1625938145312-c9f6347b7674?w=400",
+      "image": "slondok.jpg",
       "description": "Slondok tradisional, gurih dan renyah cocok untuk camilan.",
       "stock": 75,
       "sold": 210
