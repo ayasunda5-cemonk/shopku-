@@ -15,7 +15,9 @@
       "name": "Kripik Singkong Pedas",
       "price": 15000,
       "category": "Makanan",
-      "image": "kripik-singkong.jpg",
+      "image":
+      "=https://www.meta.ai/share/m/PRGnvPbh96?utm_source=android_meta_ai_sl&open_in_meta_ai=true
+      ",
       "description": "Kripik singkong renyah dengan bumbu pedas khas.",
       "stock": 100,
       "sold": 340
