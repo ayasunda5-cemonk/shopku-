@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Deodorant Rexona",
+      "price": 25000,
+      "category": "Kecantikan",
+      "image": "https://images.unsplash.com/photo-1585232004423-244e0e6904e3?w=400",
+      "description": "Deodorant tahan 48 jam, wangi segar sepanjang hari.",
+      "stock": 50,
+      "sold": 120
+    },
+    {
+      "id": 2,
+      "name": "Kripik Singkong Pedas",
+      "price": 15000,
+      "category": "Makanan",
+      "image": "https://images.unsplash.com/photo-1613919113640-569c39f03234?w=400",
+      "description": "Kripik singkong renyah dengan bumbu pedas khas.",
+      "stock": 100,
+      "sold": 340
+    },
+    {
+      "id": 3,
+      "name": "Slondok Gurih",
+      "price": 10000,
+      "category": "Makanan",
+      "image": "https://images.unsplash.com/photo-1625938145312-c9f6347b7674?w=400",
+      "description": "Slondok tradisional, gurih dan renyah cocok untuk camilan.",
+      "stock": 75,
+      "sold": 210
+    },
+    {
+      "id": 4,
+      "name": "Deodorant Nivea Men",
+      "price": 32000,
+      "category": "Kecantikan",
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400",
+      "description": "Deodorant khusus pria, anti bakteri dan tahan lama.",
+      "stock": 40,
+      "sold": 89
+    },
+    {
+      "id": 5,
+      "name": "Kripik Singkong Original",
+      "price": 12000,
+      "category": "Makanan",
+      "image": "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=400",
+      "description": "Kripik singkong rasa original, cocok untuk semua usia.",
+      "stock": 120,
+      "sold": 450
+    },
+    {
+      "id": 6,
+      "name": "Slondok Manis",
+      "price": 11000,
+      "category": "Makanan",
+      "image": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=400",
+      "description": "Slondok dengan sentuhan manis gula merah.",
+      "stock": 60,
+      "sold": 175
+    }
+  ]
+}

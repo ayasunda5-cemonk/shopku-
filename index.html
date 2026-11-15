@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopKu - Belanja Online Murah & Mudah</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <i class="fas fa-shopping-bag"></i> ShopKu
+      </a>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Cari produk di ShopKu..." />
+        <button><i class="fas fa-search"></i></button>
+      </div>
+      <div class="cart-icon" onclick="toggleCart()">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>🔥 Flash Sale Hari Ini!</h1>
+      <p>Diskon hingga 50% untuk semua produk pilihan</p>
+      <button class="btn-primary" onclick="scrollToProducts()">Belanja Sekarang</button>
+    </div>
+  </section>
+
+  <!-- KATEGORI -->
+  <section class="container categories">
+    <h2>Kategori</h2>
+    <div class="category-list">
+      <button class="cat-btn active" data-cat="all">Semua</button>
+      <button class="cat-btn" data-cat="Makanan">🍟 Makanan</button>
+      <button class="cat-btn" data-cat="Kecantikan">💄 Kecantikan</button>
+      <button class="cat-btn" data-cat="Fashion">👕 Fashion</button>
+      <button class="cat-btn" data-cat="Elektronik">📱 Elektronik</button>
+    </div>
+  </section>
+
+  <!-- PRODUK -->
+  <section class="container" id="productsSection">
+    <h2>Rekomendasi Untukmu</h2>
+    <div class="product-grid" id="productGrid"></div>
+  </section>
+
+  <!-- CART SIDEBAR -->
+  <div class="cart-overlay" id="cartOverlay" onclick="toggleCart()"></div>
+  <aside class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h3><i class="fas fa-shopping-cart"></i> Keranjang</h3>
+      <button onclick="toggleCart()"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total:</span>
+        <strong id="cartTotal">Rp 0</strong>
+      </div>
+      <button class="btn-checkout" onclick="checkoutWhatsApp()">
+        <i class="fab fa-whatsapp"></i> Checkout via WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 ShopKu. Semua hak dilindungi.</p>
+      <p>Hubungi kami: <a href="https://wa.me/6285156116154">0851-5611-6154</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
